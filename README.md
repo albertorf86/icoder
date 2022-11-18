@@ -1,5 +1,5 @@
 # icoder
-<a href="https://icoder-project.netlify.app" target="_blank">Website link<a/>
+https://icoder-project.netlify.app
 <br>
 Technology: Bootstrap
 <br>
