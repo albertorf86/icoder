@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">iCoder</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Topics
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#">Technology</a></li>
+                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Support</a></li>
+                  <li><a class="dropdown-item" href="#">Write for us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary active text-white" aria-current="page" href="#">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+          <nav class="navbar ">
+            <form class="container-fluid justify-content-start">
+              <button class="btn btn-danger me-2" type="button">Login</button>
+              <button class="btn  btn-danger" type="button">SignUp</button>
+            </form>
+          </nav>
+        </div>
+        </nav>
+     
+<!-- Form -->
+          <div class="row justify-content-center my-4">
+            <div class="col-lg-8">
+                <h4 class="fw-semibold">Contact us</h4>
+              <form action="">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="name@example.com"
+                  class="form-control"
+                />
+                <label for="query" class="form=label my-3">Select your query</label>
+                <select name="query" id="query" class="form-select">
+                  <option value="web" selected>Web</option>
+                  <option value="technology">Technology</option>
+                  <option value="other">Other</option>
+                </select>
+                <div class="form-group row my-4">
+                    <div class="col-sm-2">Are you a Member?</div>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                          Yes
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row my-4">
+                    <div class="col-sm-2">Are you a Professor?</div>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                          Yes
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row my-4">
+                    <div class="col-sm-2">Are you a Coder?</div>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                          Yes
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Tell us about yourself</label>
+                    <textarea class="form-control my-2" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="form-group my-3">
+                    <label for="exampleFormControlTextarea1">Elaborate your concern</label>
+                    <textarea class="form-control my-2" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+  
+                <div class="text-start">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+<!--   footer    -->     
+    <footer class="footer mt-auto py-3 bg-white">
+        <div class="container my-5">
+           
+          <span class="text-muted navbar"
+            ><p class="nav-item"> 2021-2022 iCoder, Inc - <a href="#" class="text-primary btn">Privacy - Terms</a></p>
+            
+            <p class="text-primary nav-item btn">Back to top</p>
+            </span>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
